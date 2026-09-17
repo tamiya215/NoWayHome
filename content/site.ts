@@ -7,7 +7,7 @@ export const site = {
 // Switch to page routes when the individual pages are ready.
 export const navigation = [
   { label: "Home", href: "/" },
-  { label: "About", href: "/#about" },
+  { label: "About", href: "/about" },
   { label: "People", href: "/people" },
   { label: "Research", href: "/#research" },
   { label: "Publications", href: "/#publications" },

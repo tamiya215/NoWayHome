@@ -12,7 +12,7 @@ export default function Home() {
           <h1 id="hero-title" lang="en">NoWayHome<br />Research Laboratory<span className="title-period">.</span></h1>
           <div className="hero-bottom">
             <p className="hero-statement" lang="en">{site.tagline}</p>
-            <TextLink href="#about">Discover the lab</TextLink>
+            <TextLink href="/about">Discover the lab</TextLink>
           </div>
           <div className="hero-caption"><span>Observation. Documentation. Inquiry.</span><span>NWH LAB / INTRODUCTION</span></div>
         </section>
