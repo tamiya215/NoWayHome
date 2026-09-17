@@ -18,7 +18,7 @@ export default function Home() {
         </section>
 
         <section id="about" className="section section-split" aria-labelledby="about-title">
-          <SectionHeading number="01" label="About the lab" id="about-title">일상을 관찰하고,<br />함께 기록합니다.</SectionHeading>
+          <SectionHeading number="01" label="About the lab" id="about-title">Everyday observations.<br />Shared records.</SectionHeading>
           <div className="section-copy">
             <p className="lead">NoWayHome은 경희대학교 학생 네 명이 함께하는 독립적인 모임입니다. 친구들과의 일상과 추억을 연구 활동의 형식으로 기록합니다.</p>
             <p>시작은 한 연구실 홈페이지였습니다. 정유종이 어느 교수님의 연구실 소개를 보고 감탄했던 순간에서, 우리만의 연구실을 만드는 아이디어가 시작되었습니다.</p>
@@ -29,13 +29,13 @@ export default function Home() {
         <div className="overview-grid">
           <section id="people" className="overview-section" aria-labelledby="people-title">
             <SectionHeading number="02" label="People" id="people-title">Four members.<br />A shared curiosity.</SectionHeading>
-            <p>정유종과 세 명의 친구들. 함께 관찰하고 기록하는 NoWayHome의 구성원들을 소개할 예정입니다.</p>
-            <p className="status-note">구성원 소개 준비 중</p>
+            <p>정유종과 세 명의 친구들. NoWayHome의 주요 관찰 대상과 연구진을 소개합니다.</p>
+            <p><TextLink href="/people">Meet the members</TextLink></p>
           </section>
           <section id="research" className="overview-section" aria-labelledby="research-title">
             <SectionHeading number="03" label="Research" id="research-title">Everyday moments.<br />Open questions.</SectionHeading>
             <p>친구들과 있었던 사건과 정유종의 행동을 연구 주제로 기록합니다. 일상에서 시작된 질문들을 이곳에 모읍니다.</p>
-            <p className="status-note">연구 기록 준비 중</p>
+            <p className="status-note" lang="en">Research records forthcoming</p>
           </section>
         </div>
 

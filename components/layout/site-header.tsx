@@ -6,7 +6,7 @@ export function SiteHeader() {
   return (
     <header className="site-header">
       <Container className="header-inner">
-        <Link className="wordmark" href="/" aria-label="NoWayHome Research Laboratory 홈">
+        <Link className="wordmark" href="/" lang="en" aria-label="NoWayHome Research Laboratory Home">
           <span>NoWayHome<span className="wordmark-dot">.</span></span>
           <span className="wordmark-subtitle">Research Laboratory</span>
         </Link>

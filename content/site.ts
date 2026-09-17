@@ -8,7 +8,7 @@ export const site = {
 export const navigation = [
   { label: "Home", href: "/" },
   { label: "About", href: "/#about" },
-  { label: "People", href: "/#people" },
+  { label: "People", href: "/people" },
   { label: "Research", href: "/#research" },
   { label: "Publications", href: "/#publications" },
   { label: "News", href: "/#news" },

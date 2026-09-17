@@ -1,0 +1,33 @@
+.intro { margin-top: 32px; padding: 32px 36px; background: var(--surface); border-top: 3px solid var(--accent); border-bottom: 1px solid var(--line); }
+.intro h1 { margin-block: 20px; font-size: clamp(36px, 4.4vw, 54px); font-weight: 600; letter-spacing: -0.035em; line-height: 1.15; }
+.description { max-width: 580px; font-size: 16px; line-height: 1.8; word-break: keep-all; overflow-wrap: anywhere; color: var(--muted); }
+.group { padding-top: var(--section-space); }
+.profiles { margin-top: 24px; border-bottom: 1px solid var(--line); }
+.recruitment {
+  display: grid;
+  grid-template-columns: minmax(180px, 1fr) minmax(0, 2fr) auto;
+  gap: 32px;
+  align-items: start;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--accent);
+  padding: 28px;
+  margin-top: 32px;
+  margin-bottom: var(--section-space);
+}
+.positionTitle { margin-top: 12px; font-size: 18px; line-height: 1.5; font-style: italic; }
+.recruitmentDescription { color: var(--muted); font-size: 14px; line-height: 1.9; word-break: keep-all; overflow-wrap: anywhere; }
+.recruitmentStatus { border-left: 1px solid var(--line); padding-left: 24px; }
+.recruitmentStatus dd { margin-top: 12px; color: var(--accent); font-size: 14px; }
+@media (min-width: 701px) and (max-width: 900px) {
+  .recruitment { grid-template-columns: minmax(0, 1fr) auto; }
+  .recruitmentHeading { grid-column: 1 / -1; }
+}
+@media (max-width: 700px) {
+  .intro { margin-top: 20px; padding: 26px 20px; }
+  .intro .description { font-size: 16px; }
+  .intro > p:first-child { font-size: 9px; letter-spacing: 1px; }
+  .profiles { margin-top: 28px; }
+  .recruitment { grid-template-columns: 1fr; gap: 24px; padding: 24px 20px; }
+  .recruitmentStatus { border-left: 0; padding-left: 0; }
+}

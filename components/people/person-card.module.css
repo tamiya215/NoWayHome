@@ -1,0 +1,26 @@
+.profile {
+  display: grid;
+  grid-template-columns: minmax(200px, 1fr) minmax(0, 2fr);
+  gap: clamp(32px, 5vw, 80px);
+  padding-block: 32px;
+  border-top: 1px solid var(--line);
+}
+.identity { min-width: 0; border-left: 2px solid var(--accent); padding-left: 18px; align-self: start; }
+.name { font-size: 26px; font-weight: 600; letter-spacing: -1px; line-height: 1.4; }
+.position { margin-top: 10px; color: var(--accent); font-size: 13px; line-height: 1.6; }
+.instagram { display: inline-flex; align-items: center; gap: 6px; margin-top: 14px; color: var(--accent); font-size: 10px; font-weight: 600; letter-spacing: 1px; line-height: 1.8; }
+.instagram:hover { text-decoration: underline; text-underline-offset: 4px; }
+.portrait { width: 240px; max-width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; margin-bottom: 24px; }
+.biography { max-width: 720px; font-size: 16px; line-height: 1.85; color: var(--muted); word-break: keep-all; overflow-wrap: anywhere; }
+.biography p + p { margin-top: 16px; }
+.interests { margin-top: 24px; padding: 14px 18px; background: var(--surface); border: 1px solid var(--line); }
+.interests h4 { color: var(--accent); font-size: 10px; letter-spacing: 1.4px; text-transform: uppercase; font-weight: 600; }
+.interests ul { display: flex; flex-wrap: wrap; gap: 6px 0; margin-top: 12px; padding: 0; list-style: none; }
+.interests li { font-size: 12px; line-height: 1.8; color: var(--muted); }
+.interests li:not(:last-child)::after { content: "·"; margin-inline: 12px; color: var(--accent); }
+@media (max-width: 700px) {
+  .profile { grid-template-columns: 1fr; gap: 24px; padding-block: 34px; }
+  .name { font-size: 25px; }
+  .portrait { width: 160px; }
+  .biography { font-size: 15px; }
+}

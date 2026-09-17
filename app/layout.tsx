@@ -14,7 +14,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="ko">
       <body>
-        <a className="skip-link" href="#main-content">본문으로 바로가기</a>
+        <a className="skip-link" href="#main-content" lang="en">Skip to content</a>
         <SiteHeader />
         {children}
         <SiteFooter />
