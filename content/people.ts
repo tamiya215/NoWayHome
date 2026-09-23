@@ -19,7 +19,7 @@ export const people: Person[] = [
     name: "정유종",
     group: "subject",
     position: "Primary Research Subject",
-    biography: ["2005년 여수 출생. NoWayHome Research Laboratory의 주요 관찰 대상이다. 일상적으로 예측하기 어려운 행동과 다양한 기행을 반복적으로 보여주며, 이를 통해 연구진에게 지속적인 관찰 자료를 제공하고 있다."],
+    biography: ["2005년 순천 출생. NoWayHome Research Laboratory의 주요 관찰 대상이다. 일상적으로 예측하기 어려운 행동과 다양한 기행을 반복적으로 보여주며, 이를 통해 연구진에게 지속적인 관찰 자료를 제공하고 있다."],
     researchInterests: ["Unexplained Behavior", "Spontaneous Incidents", "Behavioral Observation"],
     instagram: "https://www.instagram.com/uuujong/",
   },
