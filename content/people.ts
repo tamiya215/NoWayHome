@@ -30,7 +30,7 @@ export const people: Person[] = [
     position: "Senior Researcher",
     biography: ["2004년 부산 출생. 기계공학부와 화학공학과를 복수전공하고 있다. 주요 연구 방법은 관찰 대상에 대한 지속적이고 집요한 도발과 이에 따른 반응의 분석이다. 한편 춘식이에 대해 이례적으로 높은 수준의 관심을 보이는 것으로 알려져 있다."],
     researchInterests: ["Provocation Studies", "Yujong Response Analysis", "Choonsik Studies"],
-    instagram: "https://www.instagram.com/cnstlr_/",
+    instagram: "https://www.instagram.com/cnstlrㅣ_/",
   },
   {
     id: "hyejun",
